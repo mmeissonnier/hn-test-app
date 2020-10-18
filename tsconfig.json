@@ -18,7 +18,17 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+    "baseUrl": "src",
+    "paths": {
+      "@src/*":["*"],
+      "@types": ["types"],
+      "@hooks":["hooks"],
+      "@store":["store"],
+      "@components": ["components"],
+      "@containers": ["containers"],
+      "@utils":["utils"]
+    }
   },
   "exclude": ["node_modules"],
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
