@@ -2,6 +2,8 @@
 
 A simple test project using Next.js with TypeScript and Styled Components.
 
+See it in action : https://hn-test-project.herokuapp.com/
+
 ## How to use it?
 Start server:
 ```
