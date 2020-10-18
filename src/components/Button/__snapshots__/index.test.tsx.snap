@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Button should render correctly 1`] = `
+.c0 {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  white-space: nowrap;
+}
+
+.c0:hover {
+  cursor: pointer;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  color: #FF742B;
+}
+
+<div>
+  <button
+    class="c0"
+  >
+    FOO
+  </button>
+</div>
+`;
